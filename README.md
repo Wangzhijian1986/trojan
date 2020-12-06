@@ -27,6 +27,9 @@ trojan多用户管理部署程序
 #安装/更新
 source <(curl -sL https://git.io/trojan-install)
 
+#安装/mycode
+wget -N --no-check-certificate https://raw.githubusercontent.com/Wangzhijian1986/trojan/master/install.sh && chmod +x install.sh && ./install.sh     
+
 #卸载
 source <(curl -sL https://git.io/trojan-install) --remove
 
